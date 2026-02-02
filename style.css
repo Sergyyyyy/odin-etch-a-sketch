@@ -9,19 +9,15 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: hsl(0, 5%, 9%);
 }
 
 .main-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
 }
 
 .myGrid {
-    /* max-height: 100px;
-    max-width: 100px; */
-    height: 100px;
-    border: 1px solid;
-    flex: 0 0 100px;
+    background-color: rgb(0, 0, 0);
 }
